@@ -1,0 +1,61 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+
+  &_card {
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+    h2 {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid white;
+    }
+    p {
+      font-weight: 400;
+      font-size: 18px;
+    }
+  }
+  .card {
+    border: 1px solid brown;
+    background-color: rgb(62, 118, 75);
+    color: white;
+    margin: 30px;
+    padding: 30px;
+
+    .btns {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      button {
+        background: rgb(91, 173, 110);
+        padding: 40px;
+        padding-top: 10px;
+        font-size: 30px;
+      }
+      svg {
+        // background-color: transparent;
+
+        padding-bottom: 40px;
+        path {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.loading {
+  font-size: 100px;
+  position: fixed;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0%;
+  background: gray;
+  width: 100%;
+  height: 100vh;
+  top: 0%;
+}
